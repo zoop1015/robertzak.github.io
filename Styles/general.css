@@ -2,4 +2,16 @@
   --main-color: rgb(75, 171, 255);
   --secondary-color: rgb(58, 58, 58);
   --third-color: white;
+  --fourth-color: rgb(62, 62, 62);
+}
+
+p {
+  font-family: montserrat;
+  margin: 0px;
+}
+
+body {
+  background-color: var(--fourth-color);
+  padding-bottom: 3000px;
+  margin: 0px;
 }
