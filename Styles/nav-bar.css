@@ -1,0 +1,97 @@
+:root {
+  --main-color: rgb(75, 171, 255);
+  --secondary-color: rgb(58, 58, 58);
+  --third-color: white;
+  --fourth-color: rgb(62, 62, 62);
+}
+
+.nav-bar {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  background-color:var(--secondary-color);
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.home-container, .about-me-container, .my-work-container {
+  margin: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+  margin-bottom: -40px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: box-shadow 0.25s;
+}
+
+.home-container {
+  flex: 2;
+}
+
+.home-container:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+
+  .home-text {
+    font-size: 40px;
+  }
+
+  .home-icon {
+    width: 60px;
+  }
+}
+
+.home-text {
+  color: var(--third-color);
+  font-weight: 600;
+  font-size: 30px;
+
+  transition: font-size 0.25s;
+}
+
+.home-icon {
+  width: 50px;
+  
+  transition: width 0.25s;
+}
+
+.about-me-container {
+  flex: 1;
+}
+
+.about-me-container:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+
+  .home-text {
+    font-size: 40px;
+  }
+
+  .home-icon {
+    width: 60px;
+  }
+}
+
+.my-work-container {
+  flex: 1;
+  margin-right: 100px;
+}
+
+.my-work-container:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+
+  .home-text {
+    font-size: 40px;
+  }
+
+  .home-icon {
+    width: 60px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .home-text {
+    opacity: 0;
+    position: absolute;
+  }
+}
