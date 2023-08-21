@@ -40,6 +40,12 @@
   border-radius: 50%;
   object-fit: contain;
   width: 400px;
+
+  transition: box-shadow 1s;
+}
+
+.profile-image:hover {
+  box-shadow: 0 0 50px var(--main-color);
 }
 
 .profile-image-container {
@@ -57,7 +63,7 @@
 
 .minor-author-info {
   text-align: center;
-  font-size: 40px;
+  font-size: 45px;
   color: white;
 }
 
