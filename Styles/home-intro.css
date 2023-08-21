@@ -9,9 +9,9 @@
 .home-intro {
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-top: 0px;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .first-row-home-intro {
@@ -39,7 +39,13 @@
 .profile-image {
   border-radius: 50%;
   object-fit: contain;
-  width: 500px;
+  width: 400px;
+}
+
+.profile-image-container {
+  border: 5px solid var(--main-color);
+  border-radius: 50%;
+  padding: 15px;
 }
 
 .author-name {

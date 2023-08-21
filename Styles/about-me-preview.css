@@ -1,0 +1,38 @@
+:root {
+    --main-color: rgb(75, 171, 255);
+    --secondary-color: rgb(58, 58, 58);
+    --third-color: white;
+    --fourth-color: rgb(62, 62, 62);
+  }
+
+.about-me-preview {
+    margin-left: 20px;
+}
+
+.about-me-text-preview {
+    display: flex;
+}
+
+.about-me-title {
+    color: var(--third-color);
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.about-me-content-preview {
+    display: flex;
+}
+
+.about-me-text-preview {
+    font-size: 25px;
+    color: var(--third-color)
+}
+
+.learn-more-button {
+    width: 100px;
+    border-style: none;
+    border-radius: 50px;
+    margin-left: 5px;
+    font-weight: 600;
+}
