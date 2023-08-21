@@ -1,0 +1,61 @@
+:root {
+  --main-color: rgb(75, 171, 255);
+  --secondary-color: rgb(58, 58, 58);
+  --third-color: white;
+  --fourth-color: rgb(62, 62, 62);
+}
+
+
+.home-intro {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.first-row-home-intro {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.home-intro-end-dot {
+  color: rgb(94, 188, 255);
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.home-intro-line {
+  flex: 1;
+  margin: 0px 1%;
+  height: 5px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.profile-image {
+  border-radius: 50%;
+  object-fit: contain;
+  width: 500px;
+}
+
+.author-name {
+  text-align: center;
+  font-size: 75px;
+  color: white;
+  font-weight: 600;
+}
+
+.minor-author-info {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.minor-author-keyword {
+  color: var(--main-color);
+  font-weight: 500;
+}
