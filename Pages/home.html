@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="../Styles/nav-bar.css">
     <link rel="stylesheet" href="../Styles/home-intro.css">
     <link rel="stylesheet" href="../Styles/about-me-preview.css">
+    <link rel="stylesheet" href="../Styles/my-work-preview.css">
+    <link rel="stylesheet" href="../Styles/contact-preview.css">
+    <link rel="stylesheet" href="../Styles/foot-bar.css">
+    <link rel="stylesheet" href="../Styles/previews-section.css">
 
   </head>
 
@@ -78,38 +82,79 @@
       </p>
 
       <p class="minor-author-info" id="minor-author-info">
-        I'm a <span class="minor-author-keyword">Developer</span>.
+        I'm a
       </p>
     </div>
 
-    <div class="line-seperator"></div>
+    <div class="line-seperator-top"></div>
 
-    <div class="about-me-preview">
-      <p class="about-me-title">
-        About Me
-      </p>
+    <div class="page-previews">
+      <div class="about-me-preview">
+        <p class="about-me-preview-title">
+          About Me
+        </p>
+  
+        <div class="about-me-content-preview"> 
+          <p class="about-me-text-preview">
+            I'm an 18 year old self-taught devel...
+          </p>
+  
+          <button class="learn-more-button" 
+            onclick="location.href='about-me.html'">
+            Learn More
+          </button>
+        </div>
+      </div>
 
-      <div class="about-me-content-preview"> 
-        <p class="about-me-text-preview">
-          I'm an 18 year old self-taught devel...
+      <div class="line-seperator-light"></div>
+
+      <div class="my-work-preview">
+        <p class="my-work-preview-title">
+          My Work
         </p>
 
-        <button class="learn-more-button">
-          Learn More
-        </button>
+        <div class="my-work-content-preview">
+          <div class="image-work-previews">
+            <img src="../Assets/Images/TemplateArt.png" class="image-preview">
+            <img src="../Assets/Images/TemplateArt.png" class="image-preview">
+          </div>
+
+          <button class="see-more-button" 
+            onclick="location.href='my-work.html'">
+            See More
+          </button>
+        </div>
+      </div>
+
+      <div class="line-seperator-light"></div>
+
+      <div class="contact-preview">
+        <p class="contact-preview-title">
+          Contact Me
+        </p>
+
+        <div class="contact-preview-second-row">
+          <p class="contact-me-description">
+            If you'd like to contact me via email
+              please go to the contact page.
+          </p>
+
+          <button class="go-to-contact-button" 
+            onclick="location.href='contact.html'">
+            Go To Contact Page
+          </button>
+        </div>
       </div>
     </div>
 
-    <div class="line-seperator"></div>
+    <div class="line-seperator-light"></div>
 
-    <script src="../Scripts/titleAnimation.js"></script>
-
-    <!-- <div class="my-work-preview">
-
+    <div class="foot-bar">
+      <p class="copyright-notice">
+        &#169; 2023 - 2023, Robert Zak.
+      </p>
     </div>
 
-    <div class="contact-preview">
-
-    </div> -->
+    <script src="../Scripts/titleAnimation.js"></script>
   </body>
 </html>

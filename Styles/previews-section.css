@@ -1,0 +1,13 @@
+.learn-more-button, .see-more-button,
+  .go-to-contact-button {
+    cursor: pointer;
+    transition: margin 0.25s, box-shadow 0.25s,
+     color 0.25s;
+}
+
+.learn-more-button:hover, .see-more-button:hover,
+  .go-to-contact-button:hover {
+    margin: 0px 10px;
+    box-shadow: 0 0 10px var(--main-color);
+    color: var(--main-color);
+}

@@ -1,0 +1,32 @@
+.contact-preview {
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
+
+.contact-preview-title {
+  color: var(--third-color);
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.contact-preview-second-row {
+  display: flex;
+  align-items: center;
+}
+
+.contact-me-description {
+  font-size: 25px;
+  color: var(--third-color);
+  margin-right: 20px;
+}
+
+.go-to-contact-button {
+  width: 200px;
+  height: 100%;
+  border-style: none;
+  border-radius: 50px;
+  margin-left: 5px;
+  margin-right: 50px;
+  font-weight: 600;
+  padding: 10px;
+}

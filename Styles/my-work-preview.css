@@ -1,0 +1,33 @@
+.my-work-preview {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 60px;
+}
+
+.my-work-preview-title {
+  color: var(--third-color);
+  font-weight: 600;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.my-work-content-preview {
+  display: flex;
+  align-items: center;
+}
+
+.image-preview {
+  width: 300px;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+
+.see-more-button {
+  border-radius: 25px;
+  border-style: none;
+  height: 50px;
+  width: 100px;
+  font-weight: 600;
+  margin-right: 50px;
+}
