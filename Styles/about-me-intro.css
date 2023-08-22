@@ -1,0 +1,31 @@
+.about-me-intro {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.about-me-intro-end-dot {
+    color: rgb(94, 188, 255);
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.about-me-intro-line {
+    flex: 1;
+    margin: 0px 1%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.about-me-title {
+    text-align: center;
+    font-size: 75px;
+    color: white;
+    font-weight: 600;
+}

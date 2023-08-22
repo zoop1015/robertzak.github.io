@@ -1,0 +1,61 @@
+.about-me-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+.about-me-header {
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about-me-paragraph {
+    font-size: 25px;
+    color: white;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.fun-fact-container {
+    display: inline-flex;
+    padding: 60px 40px;
+    margin-left: 80px;
+    flex-direction: column;
+    position: relative;
+    background-image: linear-gradient(to bottom right, rgb(57, 57, 57),
+    rgb(31, 31, 31));
+    margin-bottom: 100px;
+    border-style: solid;
+    border-color: var(--main-color);
+    margin-top: 50px;
+
+    transition: padding 0.25s, box-shadow 0.25s;
+}
+
+.fun-fact-container:hover {
+    box-shadow: 0 0 30px var(--main-color);
+    padding: 65px 45px;
+
+    .fun-fact-paragraph {
+        font-size: 21px;
+    }
+}
+
+.fun-fact-paragraph {
+    width: 400px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+
+    transition: font-size 1s;
+}
+
+.fun-fact-image {
+    position: absolute;
+    bottom: 80px;
+    left: -25px;
+    width: 200px;
+}
