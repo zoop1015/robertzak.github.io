@@ -9,7 +9,7 @@
   z-index: -1;
 }
 
-.work-minimized-container {
+#work-minimized-container {
   display: grid;
   margin: 150px 0;
   padding-left: 50px;
@@ -20,7 +20,6 @@
 .work-minimized {
   display: inline-flex;
   flex-direction: column;
-  align-items: center;
   width: 400px;
   border-radius: 30px;
 
