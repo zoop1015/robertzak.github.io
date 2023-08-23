@@ -1,3 +1,5 @@
+console.log("This statement is printed from work.js");
+
 // Data structure that stores the information for the art-work that will then
 // automatically integrate to html & display on the website.
 const WORK_DATA = [
@@ -84,22 +86,11 @@ function AddWork(work_data)
 }
 
 $(document).ready(() => {
+  console.log("This statement is printed from work.js and document is ready");
+
     for (i = 0; i < WORK_DATA.length; i++)
     {
+      console.log(WORK_DATA[i]);
       AddWork(WORK_DATA[i]);
-    }
-
-    if (window.innerWidth >= 1850 && window.innerWidth <= 2300)
-    {
-      document.getElementById("work-minimized-container").style.gridTemplateColumns = "1fr 1fr 1fr 1fr";
-    }
-    else if (window.innerWidth >= 1400 && window.innerWidth < 1850)
-    {
-      document.getElementById("work-minimized-container").style.gridTemplateColumns = "1fr 1fr 1fr";
-    }
-    else if (window.innerWidth >= 800 && window.innerWidth < 1400)
-    {
-      document.getElementById("work-minimized-container").style.gridTemplateColumns = "1fr 1fr";
-
     }
 })
