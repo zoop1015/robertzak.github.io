@@ -1,5 +1,3 @@
-console.log("This statement is printed from work.js");
-
 // Data structure that stores the information for the art-work that will then
 // automatically integrate to html & display on the website.
 const WORK_DATA = [
@@ -86,11 +84,8 @@ function AddWork(work_data)
 }
 
 $(document).ready(() => {
-  console.log("This statement is printed from work.js and document is ready");
-
     for (i = 0; i < WORK_DATA.length; i++)
     {
-      console.log(WORK_DATA[i]);
       AddWork(WORK_DATA[i]);
     }
 })

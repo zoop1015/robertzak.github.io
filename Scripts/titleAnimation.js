@@ -2,8 +2,8 @@ const TIME_BETWEEN_TITLE_SWITCH_IN_SECONDS = 1.5;
 const TIME_BETWEEN_TITLE_SWITCH_IN_MILISECONDS = 
   TIME_BETWEEN_TITLE_SWITCH_IN_SECONDS * 1000;
 
-const TITLES = ['Developer', 'Artist', 'Student'];
-const PRECEEDING_TEXT = "I'm a"
+const TITLES = ['Forritari', 'Listamaður', 'Nemandi'];
+const PRECEEDING_TEXT = "Ég er"
 
 let titleElement = 
   document.getElementById('minor-author-info');
