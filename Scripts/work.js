@@ -4,23 +4,23 @@ const WORK_DATA = [
 
     {
         work_image : "../Assets/Images/TemplateArt.png",
-        title : "The Mighty Template Art",
-        project : "Áferð á þér",
+        title : "Template Art #1",
+        project : "Project Beta",
         time_created : "8/22/2023"
     },
 
     {
         work_image : "../Assets/Images/TemplateArt.png",
-        title : "The Future Template Art",
-        project : "Áferð á þér",
+        title : "Template Art #2",
+        project : "Project Alpha",
         time_created : "3/3/2024"
     },
 
     {
         work_image : "../Assets/Images/TemplateArt.png",
-        title : "The Mighty Template Art",
-        project : "Ljós og Skuggar",
-        time_created : "8/22/2023"
+        title : "Template Art #3",
+        project : "Project Theta",
+        time_created : "2/9/2016"
     },
 
 
@@ -83,25 +83,23 @@ function AddWork(work_data)
     workDataInstances[workContainer.getAttribute("id")] = work_data;
 }
 
-// $(document).ready(() => {
-//     for (i = 0; i < WORK_DATA.length; i++)
-//     {
-//       AddWork(WORK_DATA[i]);
-//     }
+$(document).ready(() => {
+    for (i = 0; i < WORK_DATA.length; i++)
+    {
+      AddWork(WORK_DATA[i]);
+    }
 
-//     console.log(window.innerWidth);
+    if (window.innerWidth >= 1850 && window.innerWidth <= 2300)
+    {
+      document.getElementById("work-minimized-container").style.gridTemplateColumns = "1fr 1fr 1fr 1fr";
+    }
+    else if (window.innerWidth >= 1400 && window.innerWidth < 1850)
+    {
+      document.getElementById("work-minimized-container").style.gridTemplateColumns = "1fr 1fr 1fr";
+    }
+    else if (window.innerWidth >= 800 && window.innerWidth < 1400)
+    {
+      document.getElementById("work-minimized-container").style.gridTemplateColumns = "1fr 1fr";
 
-//     if (window.innerWidth >= 1850 && window.innerWidth <= 2300)
-//     {
-//       document.getElementById("work-minimized-container").style.gridTemplateColumns = "1fr 1fr 1fr 1fr";
-//     }
-//     else if (window.innerWidth >= 1400 && window.innerWidth < 1850)
-//     {
-//       document.getElementById("work-minimized-container").style.gridTemplateColumns = "1fr 1fr 1fr";
-//     }
-//     else if (window.innerWidth >= 800 && window.innerWidth < 1400)
-//     {
-//       document.getElementById("work-minimized-container").style.gridTemplateColumns = "1fr 1fr";
-
-//     }
-// })
+    }
+})
