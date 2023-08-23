@@ -1,1 +1,160 @@
+<!DOCTYPE html>
 
+<html>
+  <head>
+
+    <title>Home | Robert Zak's Portfolio</title>
+    <link rel="icon" href="../Assets/Images/HomeIconBorder.png">
+
+    <!-- Importing Montserrat Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500;700&display=swap" 
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="../Styles/general.css">
+    <link rel="stylesheet" href="../Styles/nav-bar.css">
+    <link rel="stylesheet" href="../Styles/home-intro.css">
+    <link rel="stylesheet" href="../Styles/about-me-preview.css">
+    <link rel="stylesheet" href="../Styles/my-work-preview.css">
+    <link rel="stylesheet" href="../Styles/contact-preview.css">
+    <link rel="stylesheet" href="../Styles/foot-bar.css">
+    <link rel="stylesheet" href="../Styles/previews-section.css">
+
+  </head>
+
+  <body>
+    <div class="nav-bar">
+      <div class="home-container" onclick="location.href='index.html'">
+        <img src="../Assets/Images/HomeIcon.png" class="home-icon">
+        
+        <p class="home-text">
+          Home
+        </p>
+      </div>
+
+      <div class="about-me-container" onclick="location.href='about-me.html'">
+        <img src="../Assets/Images/AboutMeIcon.png" class="about-me-icon">
+        
+        <p class="about-me-text">
+          About Me
+        </p>
+      </div>
+
+      <div class="my-work-container" onclick="location.href='my-work.html'">
+        <img src="../Assets/Images/MyWorkIcon.png" class="my-work-icon">
+        
+        <p class="my-work-text">
+          My Work
+        </p>
+      </div>
+
+      <div class="contact-container" onclick="location.href='contact.html'">
+        <img src="../Assets/Images/ContactIcon.png" class="contact-icon">
+
+        <p class="contact-text">
+          Contact
+        </p>
+      </div>
+    </div>
+    
+    <div class="home-intro">
+      <div class="first-row-home-intro">
+        <p class="home-intro-end-dot">
+          &#9679;
+        </p>
+
+        <div class="home-intro-line"></div>
+
+        <div class="profile-image-container">
+          <img src="../Assets/Images/meForProfile.png" class="profile-image">
+        </div>
+
+        <div class="home-intro-line"></div>
+
+        <p class="home-intro-end-dot">
+          &#9679;
+        </p>
+      </div>
+
+      <p class="author-name">
+        Róbert Zak
+      </p>
+
+      <p class="minor-author-info" id="minor-author-info">
+        I'm a
+      </p>
+    </div>
+
+    <div class="line-seperator-top"></div>
+
+    <div class="page-previews">
+      <div class="about-me-preview">
+        <p class="about-me-preview-title">
+          About Me
+        </p>
+  
+        <div class="about-me-content-preview"> 
+          <p class="about-me-text-preview">
+            I'm an 18 year old self-taught devel...
+          </p>
+  
+          <button class="learn-more-button" 
+            onclick="location.href='about-me.html'">
+            Learn More
+          </button>
+        </div>
+      </div>
+
+      <div class="line-seperator-light"></div>
+
+      <div class="my-work-preview">
+        <p class="my-work-preview-title">
+          My Work
+        </p>
+
+        <div class="my-work-content-preview">
+          <div class="image-work-previews">
+            <img src="../Assets/Images/TemplateArt.png" class="image-preview">
+            <img src="../Assets/Images/TemplateArt.png" class="image-preview">
+          </div>
+
+          <button class="see-more-button" 
+            onclick="location.href='my-work.html'">
+            See More
+          </button>
+        </div>
+      </div>
+
+      <div class="line-seperator-light"></div>
+
+      <div class="contact-preview">
+        <p class="contact-preview-title">
+          Contact Me
+        </p>
+
+        <div class="contact-preview-second-row">
+          <p class="contact-me-description">
+            If you'd like to contact me via email
+              please go to the contact page.
+          </p>
+
+          <button class="go-to-contact-button" 
+            onclick="location.href='contact.html'">
+            Go To Contact Page
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="line-seperator-light"></div>
+
+    <div class="foot-bar">
+      <p class="copyright-notice">
+        &#169; 2023 - 2023, Robert Zak.
+      </p>
+    </div>
+
+    <script src="../Scripts/titleAnimation.js"></script>
+  </body>
+</html>
