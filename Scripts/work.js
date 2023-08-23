@@ -3,21 +3,21 @@
 const WORK_DATA = [
 
     {
-        work_image : "../Assets/Images/TemplateArt.png",
+        work_image : "Assets/Images/TemplateArt.png",
         title : "Template Art #1",
         project : "Project Beta",
         time_created : "8/22/2023"
     },
 
     {
-        work_image : "../Assets/Images/TemplateArt.png",
+        work_image : "Assets/Images/TemplateArt.png",
         title : "Template Art #2",
         project : "Project Alpha",
         time_created : "3/3/2024"
     },
 
     {
-        work_image : "../Assets/Images/TemplateArt.png",
+        work_image : "Assets/Images/TemplateArt.png",
         title : "Template Art #3",
         project : "Project Theta",
         time_created : "2/9/2016"
