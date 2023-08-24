@@ -2,8 +2,6 @@ const EMAIL_SEND_DEBOUNCE_IN_MILLISECONDS = 3500;
 
 function onMailSent(message)
 {
-  alert(message);
-
   let sendButton = document.getElementById("email-send-button");
 
   if (message == "OK") {
