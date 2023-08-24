@@ -27,7 +27,7 @@ function sendMail()
   sendButton.disabled = true;
 
   sendButton.style.backgroundColor = "rgb(236, 192, 61)";
-  sendButton.textContent = "Processing Email";
+  sendButton.textContent = "Í Vinnslu";
 
   let senderEmail = document.getElementById("email-mail");
   let senderName = document.getElementById("email-name");
