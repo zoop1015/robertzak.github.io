@@ -39,6 +39,8 @@ const WORK_DATA = [
 
 ]
 
+const WORK_PREVIEWS_AMOUNT = 2;
+
 // Data structure that holds the work data
 // in html along with their corresponding metadata
 let workDataInstances = {
@@ -83,7 +85,25 @@ function constructHtmlOfWork(work_data)
 
 function constructHtmlOfPreviewWork(work_data)
 {
-  // Construct the html of preview work that's on the home page.
+  let workImagePreview = document.createElement("img");
+  workImagePreview.setAttribute('src', work_data.work_image);
+  workImagePreview.setAttribute('class', 'image-preview');
+
+  return workImagePreview;
+}
+
+function AddWorkPreview(work_data)
+{
+    let workImagePreview = constructHtmlOfPreviewWork(work_data);
+    let workImagesPreviewContainer = document.getElementById('image-work-previews');
+
+    workImagesPreviewContainer.appendChild(workImagePreview);
+}
+
+function AddWorkPreviews()
+{
+    AddWorkPreview(WORK_DATA[0]);
+    AddWorkPreview(WORK_DATA[1]);
 }
 
 function AddWork(work_data)
@@ -95,10 +115,3 @@ function AddWork(work_data)
 
     workDataInstances[workContainer.getAttribute("id")] = work_data;
 }
-
-$(document).ready(() => {
-    for (i = 0; i < WORK_DATA.length; i++)
-    {
-      AddWork(WORK_DATA[i]);
-    }
-})

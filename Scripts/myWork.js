@@ -42,7 +42,13 @@ let isBackgroundPlaying = false;
 
 $(document).ready(function() {
 
+  for (i = 0; i < WORK_DATA.length; i++)
+  {
+    AddWork(WORK_DATA[i]);
+  }
+
   let workMinimizedList = document.getElementsByClassName("work-minimized");
+  console.log(workMinimizedList.length);
 
   let workData = {}
 
@@ -54,7 +60,6 @@ $(document).ready(function() {
   for (const [key, value] of Object.entries(workData))
   {
     $("#" + key).click(function() {
-
       let fullscreenWorkImage =
        document.getElementById("fullscreen-work-image");
 
@@ -91,7 +96,6 @@ $(document).ready(function() {
   }
 
   $("#screen-solid").click(function() {
-
     if (isBackgroundPlaying != true)
     {
       isBackgroundPlaying = true;
@@ -115,5 +119,6 @@ $(document).ready(function() {
       })
     }
   })
+
 
 });
