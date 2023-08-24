@@ -3,26 +3,39 @@
 const WORK_DATA = [
 
     {
-        work_image : "Assets/Images/TemplateArt.png",
-        title : "Template Art #1",
-        project : "Project Beta",
+        work_image : "Assets/Images/AferdHlutirUti.jpg",
+        title : "Áferð á Úti Hlutum",
+        project : "Áferð",
         time_created : "8/22/2023"
     },
 
     {
-        work_image : "Assets/Images/TemplateArt.png",
-        title : "Template Art #2",
-        project : "Project Alpha",
-        time_created : "3/3/2024"
+        work_image : "Assets/Images/ReidiOrdDagsins.jpg",
+        title : "Reiði",
+        project : "Orð Dagsins",
+        time_created : "8/21/2023"
     },
 
     {
-        work_image : "Assets/Images/TemplateArt.png",
-        title : "Template Art #3",
-        project : "Project Theta",
-        time_created : "2/9/2016"
+        work_image : "Assets/Images/OrdDagsinsFrumskogur.jpg",
+        title : "Frumskógur",
+        project : "Orð Dagsins",
+        time_created : "8/23/2023"
     },
 
+    {
+        work_image : "Assets/Images/LikamsHlutir.jpg",
+        title : "Líkamshlutir",
+        project : "Skuggar og Ljós",
+        time_created : "8/22/2023"
+    },
+
+    {
+        work_image : "Assets/Images/HlutirUti.jpg",
+        title : "Hlutir Úti",
+        project : "Skuggar og Ljós",
+        time_created : "8/23/2023"
+    },
 
 ]
 
