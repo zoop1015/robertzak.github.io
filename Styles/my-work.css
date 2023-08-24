@@ -29,7 +29,7 @@
 
 #work-minimized-container {
   display: flex;
-  margin: 150px 0;
+  margin-top: 100px;
   justify-content: center;
   flex-wrap:wrap;
 }

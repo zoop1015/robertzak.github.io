@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+    <title>My Work | Robert Zak's Portfolio</title>
+    <link rel="icon" href="Assets/Images/MyWorkIconBorder.png">
+
+    <!-- Importing Montserrat Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500;700&display=swap" 
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="Styles/general.css">
+    <link rel="stylesheet" href="Styles/nav-bar.css">
+    <link rel="stylesheet" href="Styles/foot-bar.css">
+    <link rel="stylesheet" href="Styles/contact-intro.css">
+    <link rel="stylesheet" href="Styles/contact.css">
+
+    <script src="Modules/smtp.js"></script>
+    <script src="Scripts/emailContact.js"></script>
+
+  </head>
+
+  <body>
+    <div class="nav-bar">
+      <div class="home-container" onclick="location.href='index.html'">
+        <img src="Assets/Images/HomeIcon.png" class="home-icon">
+        
+        <p class="home-text">
+          Heima
+        </p>
+      </div>
+
+      <div class="about-me-container" onclick="location.href='about-me.html'">
+        <img src="Assets/Images/AboutMeIcon.png" class="about-me-icon">
+        
+        <p class="about-me-text">
+          Um Mig
+        </p>
+      </div>
+
+      <div class="my-work-container" onclick="location.href='my-work.html'">
+        <img src="Assets/Images/MyWorkIcon.png" class="my-work-icon">
+        
+        <p class="my-work-text">
+          Myndir
+        </p>
+      </div>
+
+      <div class="contact-container" onclick="location.href='contact.html'">
+        <img src="Assets/Images/ContactIcon.png" class="contact-icon">
+
+        <p class="contact-text">
+          Hafa Samband
+        </p>
+      </div>
+    </div>
+
+    <div class="contact-intro">
+
+      <p class="contact-intro-end-dot">
+          &#9679;
+        </p>
+
+        <div class="contact-intro-line"></div>
+
+        <p class="contact-title">
+          Hafa Samband
+        </p>
+
+        <div class="contact-intro-line"></div>
+
+        <p class="contact-intro-end-dot">
+          &#9679;
+        </p>
+    </div>
+
+    <div class="line-seperator-top"></div>
+
+    <div class="contact-forum">
+      <input type="text" class="short-input"
+       id="email-name" placeholder="Nafn">
+
+      <input type="text" class="short-input"
+       id="email-mail" placeholder="Netfang">
+
+      <input type="text" class="short-input"
+       id="email-company" placeholder="Fyrirtæki (Valfrjálst)">
+
+      <textarea id="email-message"
+       rows = 20 placeholder="Skilaboð"></textarea>
+      <button id="email-send-button" onclick="sendMail()">
+        Senda
+      </button>
+    </div>
+
+    <div class="line-seperator-light"></div>
+
+    <div class="foot-bar">
+      <p class="copyright-notice">
+        &#169; 2023 - 2023, Robert Zak.
+      </p>
+    </div>
+  </body>
+</html>
