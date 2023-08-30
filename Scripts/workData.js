@@ -45,8 +45,15 @@ const WORK_DATA = [
     },
 
     {
-        work_image : "Assets/Images/SkuggarOgLjos.jpg",
-        title : "3D Hlutir",
+        work_image : "Assets/Images/Crown.jpg",
+        title : "Krúna",
+        project : "Orð Dagsins",
+        time_created : "8/30/2023"
+    },
+
+    {
+        work_image : "Assets/Images/ShadowHighlights.jpg",
+        title : "Skuggar",
         project : "Skuggar og Ljós",
         time_created : "8/28/2023"
     },
@@ -57,7 +64,7 @@ const WORK_DATA = [
         project : "Skuggar og Ljós",
         time_created : "8/28/2023"
     },
-
+    
     {
         work_image : "Assets/Images/LikamsHlutir.jpg",
         title : "Líkamshlutir",
