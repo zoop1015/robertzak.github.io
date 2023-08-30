@@ -59,6 +59,13 @@ const WORK_DATA = [
     },
 
     {
+        work_image : "Assets/Images/ShadowsOutline.jpg",
+        title : "Skuggar og Útlínur",
+        project : "Skuggar og Ljós",
+        time_created : "8/28/2023"
+    },
+
+    {
         work_image : "Assets/Images/Epli.jpg",
         title : "Epli",
         project : "Skuggar og Ljós",
