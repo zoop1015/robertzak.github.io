@@ -86,6 +86,34 @@ const WORK_DATA = [
         time_created : "8/23/2023"
     },
 
+    {
+        work_image : "Assets/Images/AndlitSkuggar1.jpg",
+        title : "Andlit #1",
+        project : "Skuggar og Ljós",
+        time_created : "9/4/2023"
+    },
+
+    {
+        work_image : "Assets/Images/AndlitSkuggar2.jpg",
+        title : "Andlit #2",
+        project : "Skuggar og Ljós",
+        time_created : "9/4/2023"
+    },
+
+    {
+        work_image : "Assets/Images/DagSkyna.jpg",
+        title : "Dag Lýsing",
+        project : "Skuggar og Ljós",
+        time_created : "9/4/2023"
+    },
+
+    {
+        work_image : "Assets/Images/KvoldSkyna.jpg",
+        title : "Kvöld Lýsing",
+        project : "Skuggar og Ljós",
+        time_created : "9/4/2023"
+    },
+
 ]
 
 const WORK_PREVIEWS_AMOUNT = 2;
