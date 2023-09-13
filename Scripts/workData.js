@@ -59,6 +59,20 @@ const WORK_DATA = [
     },
 
     {
+        work_image : "Assets/Images/Nidurstodur.jpg",
+        title : "Niðurstöður",
+        project : "Orð Dagsins",
+        time_created : "9/13/2023"
+    },
+    
+    {
+        work_image : "Assets/Images/BeraOrdDagsins.jpg",
+        title : "Bera",
+        project : "Orð Dagsins",
+        time_created : "9/13/2023"
+    },
+
+    {
         work_image : "Assets/Images/ShadowHighlights.jpg",
         title : "Skuggar",
         project : "Skuggar og Ljós",
@@ -126,6 +140,20 @@ const WORK_DATA = [
         title : "Eldur",
         project : "Skuggar og Ljós",
         time_created : "9/4/2023"
+    },
+
+    {
+        work_image : "Assets/Images/ModelTeikning.jpg",
+        title : "Poses #1",
+        project : "Módel Teikning",
+        time_created : "9/13/2023"
+    },
+
+    {
+        work_image : "Assets/Images/ModelTeikning2.jpg",
+        title : "Poses #2",
+        project : "Módel Teikning",
+        time_created : "9/13/2023"
     },
 
 ]
