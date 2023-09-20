@@ -3,20 +3,6 @@
 const WORK_DATA = [
 
     {
-        work_image : "Assets/Images/AferdHlutirUti.jpg",
-        title : "Áferð á Úti Hlutum",
-        project : "Áferð",
-        time_created : "8/22/2023"
-    },
-
-    {
-        work_image : "Assets/Images/AferdInni.jpg",
-        title : "Áferð á Hlutum Inni",
-        project : "Áferð",
-        time_created : "8/28/2023"
-    },
-
-    {
         work_image : "Assets/Images/ReidiOrdDagsins.jpg",
         title : "Reiði",
         project : "Orð Dagsins",
@@ -70,6 +56,34 @@ const WORK_DATA = [
         title : "Bera",
         project : "Orð Dagsins",
         time_created : "9/13/2023"
+    },
+
+    {
+        work_image : "Assets/Images/LidOrdDagsins.jpg",
+        title : "Lið",
+        project : "Orð Dagsins",
+        time_created : "9/20/2023"
+    },
+
+    {
+        work_image : "Assets/Images/VinstriOrdDagsins.jpg",
+        title : "Vinstri",
+        project : "Orð Dagsins",
+        time_created : "9/20/2023"
+    },
+
+    {
+        work_image : "Assets/Images/AferdHlutirUti.jpg",
+        title : "Áferð á Úti Hlutum",
+        project : "Áferð",
+        time_created : "8/22/2023"
+    },
+
+    {
+        work_image : "Assets/Images/AferdInni.jpg",
+        title : "Áferð á Hlutum Inni",
+        project : "Áferð",
+        time_created : "8/28/2023"
     },
 
     {
