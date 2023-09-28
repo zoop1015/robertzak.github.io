@@ -73,6 +73,13 @@ const WORK_DATA = [
     },
 
     {
+        work_image : "Assets/Images/FreakOrdDagsins.jpg",
+        title : "Asni",
+        project : "Orð Dagsins",
+        time_created : "8/28/2023"
+    },
+
+    {
         work_image : "Assets/Images/AferdHlutirUti.jpg",
         title : "Áferð á Úti Hlutum",
         project : "Áferð",
@@ -168,6 +175,90 @@ const WORK_DATA = [
         title : "Poses #2",
         project : "Módel Teikning",
         time_created : "9/13/2023"
+    },
+
+    {
+        work_image : "Assets/Images/andlit30sec.jpg",
+        title : "Andlit 30s",
+        project : "Módel Teikning",
+        time_created : "9/28/2023"
+    },
+
+    {
+        work_image : "Assets/Images/andlit5min.jpg",
+        title : "Andlit 5m",
+        project : "Módel Teikning",
+        time_created : "9/28/2023"
+    },
+
+    {
+        work_image : "Assets/Images/fotar30sec.jpg",
+        title : "Fótur 30s",
+        project : "Módel Teikning",
+        time_created : "9/28/2023"
+    },
+
+    {
+        work_image : "Assets/Images/fotar5min.jpg",
+        title : "Fótur 5m",
+        project : "Módel Teikning",
+        time_created : "9/28/2023"
+    },
+
+    {
+        work_image : "Assets/Images/hendur30sec.jpg",
+        title : "Hendur 30s",
+        project : "Módel Teikning",
+        time_created : "9/28/2023"
+    },
+
+    {
+        work_image : "Assets/Images/hendur5min.jpg",
+        title : "Hendur 5m",
+        project : "Módel Teikning",
+        time_created : "9/28/2023"
+    },
+
+    {
+        work_image : "Assets/Images/jakvodposes.jpg",
+        title : "Jákvæð Póses",
+        project : "Módel Teikning",
+        time_created : "9/28/2023"
+    },
+
+    {
+        work_image : "Assets/Images/neikvodposes.jpg",
+        title : "Neikvöð Póses",
+        project : "Módel Teikning",
+        time_created : "9/28/2023"
+    },
+
+    {
+        work_image : "Assets/Images/PoseTeikning1.jpg",
+        title : "Alvöru Póses #1",
+        project : "Módel Teikning",
+        time_created : "9/28/2023"
+    },
+
+    {
+        work_image : "Assets/Images/PoseTeikning2.jpg",
+        title : "Alvöru Póses #2",
+        project : "Módel Teikning",
+        time_created : "9/28/2023"
+    },
+
+    {
+        work_image : "Assets/Images/KidsBabyAdults.jpg",
+        title : "Mismunandi Aldur",
+        project : "Módel Teikning",
+        time_created : "9/28/2023"
+    },
+
+    {
+        work_image : "Assets/Images/FiveDiffPpl.jpg",
+        title : "Fimm Mismunandi Manneskjur",
+        project : "Módel Teikning",
+        time_created : "9/28/2023"
     },
 
 ]
