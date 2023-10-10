@@ -80,6 +80,48 @@ const WORK_DATA = [
     },
 
     {
+        work_image : "Assets/Images/LidOrdDagsins.jpg",
+        title : "Lið",
+        project : "Orð Dagsins",
+        time_created : "9/20/2023"
+    },
+
+    {
+        work_image : "Assets/Images/svar.jpg",
+        title : "Svar",
+        project : "Orð Dagsins",
+        time_created : "10/10/2023"
+    },
+
+    {
+        work_image : "Assets/Images/arfur.jpg",
+        title : "Arfur",
+        project : "Orð Dagsins",
+        time_created : "10/10//2023"
+    },
+
+    {
+        work_image : "Assets/Images/gat.jpg",
+        title : "Gat",
+        project : "Orð Dagsins",
+        time_created : "10/10//2023"
+    },
+
+    {
+        work_image : "Assets/Images/gledi.jpg",
+        title : "Gleði",
+        project : "Orð Dagsins",
+        time_created : "10/10//2023"
+    },
+
+    {
+        work_image : "Assets/Images/bokakapa.jpg",
+        title : "Bokakápa",
+        project : "Orð Dagsins",
+        time_created : "10/10//2023"
+    },
+
+    {
         work_image : "Assets/Images/AferdHlutirUti.jpg",
         title : "Áferð á Úti Hlutum",
         project : "Áferð",
